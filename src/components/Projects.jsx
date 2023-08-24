@@ -3,8 +3,8 @@ import ncnews from "../assets/nc-news.png";
 
 function Projects() {
     return (
-        <div className="flex items-center min-h-lg p-10 space-x-4 flex-wrap justify-around space-y-4 w-full h-full bg-cover bg-center py-32 bg-[url(/background-5.png)] p-10">
-            <h2 className="mt-8 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Projects</h2>
+        <div className="flex items-center min-h-lg p-10 space-x-4 flex-wrap justify-around space-y-4 w-full h-full bg-cover bg-center py-26 bg-[url(/background-5.png)] p-10">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6">Projects</h2>
             <div className="max-w-md rounded overflow-hidden shadow-lg h-3/4">
         <img className="w-full h-96" src={shareit} alt="shareit project screenshot"/>
         <div className="px-6 py-4">

@@ -1,14 +1,14 @@
 function Resume() {
     return (
-        <div className="w-full h-full bg-cover bg-center py-32 p-10 bg-[url(/background-5.png)]">
+        <div className="w-full h-full bg-cover bg-center py-26 p-10 bg-[url(/background-5.png)]">
         <section>
-                <h2 className="mt-8 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Summary</h2>
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Summary</h2>
                 <p className="mt-6 text-l leading-8 text-gray-700">
                 I am currently enrolled in a coding bootcamp, where I gained a solid foundation in software development and gained expertise in utilizing various programming languages, frameworks, and tools. I am a results-oriented individual with excellent interpersonal and technical skills, including honesty, self-motivation, organization, leadership, decision-making, communication, project management, teamwork, and problem-solving. I believe that these qualities are essential for creating a productive and positive work environment.
                 </p>
                 <h2 className="mt-8 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Work experience</h2>
                 <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Junior Software Engineer</h3>
-                <h4 className="text-gray-600 dark:text-gray-200 pt-8 sm:pt-12 font-light">Northcoders - Leeds - May 2023 to Present </h4>
+                <h4 className="text-gray-600 pt-8 sm:pt-12 font-light">Northcoders - Leeds - May 2023 to Present </h4>
                 <p className="mt-6 text-l leading-8 text-gray-700">
                     Completed a 13-week Coding Bootcamp with a focus on building web applications, covering a mixture of back-end and front-end development
                     </p>
@@ -37,38 +37,38 @@ function Resume() {
 
                 </p>
             <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Senior Payroll Administrator </h3>
-            <h4 className="text-gray-600 dark:text-gray-200 pt-8 sm:pt-12 font-light">Maria Mallaband Care Group - Leeds - September 2019 to May </h4>
+            <h4 className="text-gray-600 pt-8 sm:pt-12 font-light">Maria Mallaband Care Group - Leeds - September 2019 to May </h4>
                 <p className="mt-6 text-l leading-8 text-gray-700">As Senior Payroll Administrator at Maria Mallaband Care Group, I process end-to-end UK monthly payroll for 1000+ employees. I handle various payroll deductions, including Cycle to Work, Childcare and AOE arrangements, SSP, SMP, ShPP, Childcare vouchers, Benefits in kind, and pension schemes. I am proficient in SAGE 50 payroll software and BACS payments, ensuring compliance with auto-enrolment policies.</p>
 
             <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Payroll Administrator </h3>
-            <h4 className="text-gray-500 dark:text-gray-200 pt-8 sm:pt-12 font-light">Maria Mallaband Care Group - Leeds - October 2017 to September 2019 </h4>
+            <h4 className="text-gray-600 pt-8 sm:pt-12 font-light">Maria Mallaband Care Group - Leeds - October 2017 to September 2019 </h4>
                 <p className="mt-6 text-l leading-8 text-gray-700">At MMCG I found the support to further improve my understanding and performance in the payroll sector.</p>
 
             <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Payroll Administrator</h3>
-            <h4 className="text-gray-600 dark:text-gray-200 pt-8 sm:pt-12 font-light">Mach Recruitment Ltd - Leeds - February 2017 to October 2017 </h4>
+            <h4 className="text-gray-600 pt-8 sm:pt-12 font-light">Mach Recruitment Ltd - Leeds - February 2017 to October 2017 </h4>
                 <p className="mt-6 text-l leading-8 text-gray-700">Within Mach I found the team, training and the support I needed to launch my career in the payroll field.</p>
 
             <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Order Picker </h3>
-            <h4 className="text-gray-500 dark:text-gray-200 pt-8 sm:pt-12 font-light">Next PLC - South Elmsall - December 2014 to February 2017 </h4>
+            <h4 className="text-gray-600  pt-8 sm:pt-12 font-light">Next PLC - South Elmsall - December 2014 to February 2017 </h4>
                 <p>As an Order Picker I was working from a Handset, picking products based on particular order. </p>
 
             <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Internship </h3>
-            <h4 className="text-gray-600 dark:text-gray-200 pt-8 sm:pt-12 font-light">Garanti Bank - Bucharest,Romania - June 2012 to August 2012 </h4>
+            <h4 className="text-gray-600 pt-8 sm:pt-12 font-light">Garanti Bank - Bucharest,Romania - June 2012 to August 2012 </h4>
                 <p className="mt-6 text-l leading-8 text-gray-700">Within Garanti Bank, I found the team, information and resources that stimulated me to put to good use my knowledge, abilities and talent. Thus, day-by-day, I experienced new things and had the opportunity to innovate, discover myself, and get a better understanding of the real business environment. 
                 As an Intern I had the following responsibilities: invoicing process, allocations of receipts, check monthly closing procedures and reconciliation of accounts, review and post invoices, updating the customers details, checking transactions correctness and helping colleagues with day to day administration activities.</p>
         </section>
         <section>
                 <h2 className="mt-8 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Education</h2>
                 <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Software Engineering Bootcamp</h3>
-                <h4 className="text-gray-600 dark:text-gray-200 pt-8 sm:pt-12 font-light">Northcoders - Leeds - May 2023 to August 2023 </h4>
+                <h4 className="text-gray-600 pt-8 sm:pt-12 font-light">Northcoders - Leeds - May 2023 to August 2023 </h4>
                 <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Payroll Processes</h3>
-                <h4 className="text-gray-600 dark:text-gray-200 pt-8 sm:pt-12 font-light">New Skills Academy - Leeds - January 2017 to March 2017 </h4>
+                <h4 className="text-gray-600 pt-8 sm:pt-12 font-light">New Skills Academy - Leeds - January 2017 to March 2017 </h4>
                 <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">CIPD Human Resources Practice Level 3</h3>
-                <h4 className="text-gray-600 dark:text-gray-200 pt-8 sm:pt-12 font-light">University Centre at Wakefield College - Wakefield - September 2015 to July 2016 </h4>
+                <h4 className="text-gray-600 pt-8 sm:pt-12 font-light">University Centre at Wakefield College - Wakefield - September 2015 to July 2016 </h4>
                     <p className="mt-6 text-l leading-8 text-gray-700">Activities: Debate team, delivering presentations, team work, interviewing.
                     During the Level 3 course I studied the following: Personal Development as an HR Practitioner, The Role of HR within Organisations, HR Information, Resourcing Talent, Employment Relations, Delivery of Learning and Development.</p>
                 <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Bachelor of Business administration </h3>
-                <h4 className="text-gray-600 dark:text-gray-200 pt-8 sm:pt-12 font-light">Bucharest University - Bucharest - October 2010 to June 2013 </h4>
+                <h4 className="text-gray-600 pt-8 sm:pt-12 font-light">Bucharest University - Bucharest - October 2010 to June 2013 </h4>
                     <p className="mt-6 text-l leading-8 text-gray-700">The main areas of studying during the Degree were the following: General management, Marketing, Statistics, Financial Accounting, Management of small and medium businesses, Business right, Theory and Banking, Strategic management, Finance and Taxation, Competitive pricing mechanisms, Economic Modeling, European and international business environment, Financial and economic analysis, Economic fundamentals investment, Transactions and Financial Markets</p>
                     <p className="mt-6 text-l leading-8 text-gray-700">Thesis: Professional and personal development of employees: Orange Romania</p>
             </section>
