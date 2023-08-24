@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-// import 'dotenv/config'
 
 const serviceId = import.meta.env.YOUR_SERVICE_ID
 const templateId = import.meta.env.YOUR_TEMPLATE_ID
