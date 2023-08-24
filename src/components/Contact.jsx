@@ -2,10 +2,9 @@ import { useState } from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-const serviceId = import.meta.env.YOUR_SERVICE_ID
-const templateId = import.meta.env.YOUR_TEMPLATE_ID
-const publicKey =  import.meta.env.YOUR_PUBLIC_KEY
-
+const serviceId = import.meta.env.VITE_SERVICE_ID
+const templateId = import.meta.env.VITE_TEMPLATE_ID
+const publicKey = import.meta.env.VITE_PUBLIC_KEY
 
 function Contact() {
     const [showAlert, setShowAlert] = useState(false)
