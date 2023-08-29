@@ -5,18 +5,18 @@ import ecommerce from "../assets/ecommerce-shop.png"
 
 function Projects() {
   return (
-    <div className="bg-[url(/background-5.png)] bg-cover bg-center py-26 p-10 h-full">
-      <h2 className="text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6 mt-16">
+    <div className="bg-[url(/background-5.png)] bg-cover bg-center py-26 md:p-10">
+      <h2 className="text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6 pt-16">
         Projects
       </h2>
-      <div className="flex items-center p-10 space-x-4 flex-wrap justify-around space-y-4  ">
+      <div className="flex items-center md:p-10 space-x-4 flex-wrap justify-around space-y-4  ">
         <div className="max-w-md rounded overflow-hidden shadow-lg">
           <img
             className="h-96"
             src={shareit}
             alt="shareit project screenshot"
           />
-          <div className="px-6 py-4 h-[350px]">
+          <div className="px-6 py-4 h-[350px] h-auto">
             <div className="font-bold text-xl mb-4">ShareIt</div>
             <p className="text-gray-700 text-base mb-4">
               ShareIt is a social media platform developed by the 405 Found team

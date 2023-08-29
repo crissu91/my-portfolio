@@ -5,10 +5,10 @@ function NavBar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <nav className="bg-white dark:bg-gray-800 h-14 bg-gradient-to-r from-blue-100 to-purple-200 fixed  z-20 w-full shadow-md">
+    <nav className="bg-white dark:bg-gray-800 h-14 bg-gradient-to-r from-blue-100 to-purple-200 fixed top-0 z-20 w-full shadow-md">
       <div className="px-8 max-w-7xl">
         <div className="flex items-center justify-between h-16">
-          <div className=" flex items-center">
+          <div className="flex items-center">
             <a className="flex-shrink-0" href="/">
               <img
                 className="w-12 h-12"
@@ -56,8 +56,8 @@ function NavBar() {
             <div
               className={
                 isNavOpen
-                  ? "absolute flex flex-col right-0 p-4 border-0 bg-white bg-gradient-to-r from-blue-100 to-purple-200 rounded shadow hover:text-gray-800 top-14 w-1/2"
-                  : "hidden w-full md:block md:w-auto"
+                  ? "absolute flex flex-col right-0 p-4 border-0 bg-white bg-gradient-to-r from-blue-100 to-purple-200 rounded shadow hover:text-gray-800 top-14 w-1/2 transition-all duration-300"
+                  : "hidden w-full md:block md:w-auto transition-all duration-300"
               }
             >
               <a

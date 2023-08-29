@@ -22,7 +22,7 @@ function App() {
 
   
   return (
-    <div className='h-screen w-full'>
+    <div className='h-full w-full'>
       <NavBar />
       <Routes>
           <Route path="/" element={<Home />} />

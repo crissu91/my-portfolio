@@ -42,7 +42,7 @@ function Contact() {
   }
 
   return (
-      <div className="w-full h-screen bg-cover bg-center py-24  bg-[url(/background-5.png)]">
+      <div className="w-full h-full bg-cover bg-center py-24  bg-[url(/background-5.png)]">
       <section className="mb-32 text-center">
         <div className="mx-auto max-w-[700px] md:px-3">
             <h2 className="mb-12 text-3xl font-bold">Contact me</h2>
@@ -60,7 +60,7 @@ function Contact() {
           <div className="flex flex-cols items-center justify-around p-10">
               <a href="https://discord.com/channels/crissu91">
               <svg
-                className="h-9 w-9"
+                className="hover:animate-bounce h-9 w-9"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 style={{ color: "#7289da" }}
@@ -75,7 +75,7 @@ function Contact() {
                 <a href="https://github.com/crissu91">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-9 w-9"
+                  className="hover:animate-bounce h-9 w-9"
                   fill="currentColor"
                   style={{color: "#333"}}
                   viewBox="0 0 24 24">
@@ -87,7 +87,7 @@ function Contact() {
                 <a href="https://www.linkedin.com/in/cristina-stefan-323242108/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-9 w-9"
+                  className="hover:animate-bounce h-9 w-9"
                   fill="currentColor"
                   style={{color: "#0077b5"}}
                   viewBox="0 0 24 24">
@@ -96,9 +96,9 @@ function Contact() {
                 </svg>
                 </a>
 
-                <a href="https://slack.com/team/U053T0J9RBM">
+                <a href="https://reactdevsgroup.slack.com/team/U053T0J9RBM">
                 <svg
-                  className="h-9 w-9"
+                  className="hover:animate-bounce h-9 w-9"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   style={{ color: "#3eb991" }}
@@ -112,6 +112,7 @@ function Contact() {
             
             <a href="https://www.codewars.com/users/crissu91">
               <svg
+                className="hover:animate-bounce h-9 w-9"
                 style={{color: "red"}}
                 role="img" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
