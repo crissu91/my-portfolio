@@ -1,8 +1,8 @@
 function Resume() {
     return (
-        <div className="w-full h-full bg-cover bg-center py-26 p-10 bg-[url(/background-5.png)]">
+        <div className="bg-cover bg-center py-26 p-10 bg-[url(/background-5.png)]">
         <section>
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Summary</h2>
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mt-16">Summary</h2>
                 <p className="mt-6 text-l leading-8 text-gray-700">
                 I am currently enrolled in a coding bootcamp, where I gained a solid foundation in software development and gained expertise in utilizing various programming languages, frameworks, and tools. I am a results-oriented individual with excellent interpersonal and technical skills, including honesty, self-motivation, organization, leadership, decision-making, communication, project management, teamwork, and problem-solving. I believe that these qualities are essential for creating a productive and positive work environment.
                 </p>
@@ -50,7 +50,7 @@ function Resume() {
 
             <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Order Picker </h3>
             <h4 className="text-gray-600  pt-8 sm:pt-12 font-light">Next PLC - South Elmsall - December 2014 to February 2017 </h4>
-                <p>As an Order Picker I was working from a Handset, picking products based on particular order. </p>
+                <p className="mt-6 text-l leading-8 text-gray-700">As an Order Picker I was working from a Handset, picking products based on particular order. </p>
 
             <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Internship </h3>
             <h4 className="text-gray-600 pt-8 sm:pt-12 font-light">Garanti Bank - Bucharest,Romania - June 2012 to August 2012 </h4>
