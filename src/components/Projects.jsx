@@ -89,7 +89,7 @@ function Projects() {
             alt="e-commerce shop project screenshot"
           />
           <div className="px-6 py-4 h-[350px]">
-            <div className="font-bold text-xl mb-4">NC News</div>
+            <div className="font-bold text-xl mb-4">E-commerce Shop</div>
             <p className="text-gray-700 text-base mb-4">
                   E-commerce Shop is a platform where users can see clothing items individually, add and remove from cart, see the total of the cart items, add or remove amount of items in cart, empty the cart completely.
                   This project has been created using React.js, Tailwind CSS and FakeStoreApi for fetching the products.
