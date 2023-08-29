@@ -7,19 +7,32 @@ import Resume from './components/Resume'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 
+import {
+  Ripple,
+  Input,
+  initTE,
+} from "tw-elements";
+import { useEffect } from 'react'
+
 function App() {
+
+  useEffect(() => {
+    initTE({ Ripple, Input });
+  }, [])
+
+  
   return (
-    <div>
+    <div className='h-screen w-full'>
       <NavBar />
-    <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
     <Footer />
     </div>
- )
+  )
 }
 
 export default App
