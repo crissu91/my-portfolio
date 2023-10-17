@@ -11,6 +11,7 @@ import tailwind from "../assets/tailwind-logo.png";
 import svelte from "../assets/svelte-logo.png";
 import supabase from "../assets/supabase-logo.png";
 import jest from "../assets/jest-logo.png";
+import npm from "../assets/npm-logo.png";
 
 function TechStack() {
   const logos = [
@@ -27,6 +28,7 @@ function TechStack() {
     svelte,
     supabase,
     jest,
+    npm,
   ];
   return (
     <div>
