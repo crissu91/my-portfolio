@@ -12,6 +12,7 @@ import svelte from "../assets/svelte-logo.png";
 import supabase from "../assets/supabase-logo.png";
 import jest from "../assets/jest-logo.png";
 import npm from "../assets/npm-logo.png";
+import supertest from "../assets/supertest.png";
 
 function TechStack() {
   const logos = [
@@ -21,14 +22,15 @@ function TechStack() {
     typescript,
     postgresql,
     sql,
-    express,
     html,
     css,
     tailwind,
     svelte,
     supabase,
-    jest,
+    express,
     npm,
+    jest,
+    supertest,
   ];
   return (
     <div>
